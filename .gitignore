@@ -1,5 +1,5 @@
 # Ignore specific subdirectories
-/src/com/leetcode
+./src/com/leetcode
 
 # Skip IDE specific files
 *.iml
