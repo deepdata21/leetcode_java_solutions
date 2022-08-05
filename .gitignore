@@ -1,0 +1,7 @@
+# Ignore specific subdirectories
+/src/com/leetcode
+
+# Skip IDE specific files
+*.iml
+.idea
+.vscode
