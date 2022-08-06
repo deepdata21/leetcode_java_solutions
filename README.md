@@ -1,6 +1,6 @@
 ## Solutions to Selected LeetCode Problems in Java
 
-## Source Code Directory
+### Source Code Directory
 
     Main/src/com/leetcode
     ├── easy
@@ -82,22 +82,20 @@
     │   ├── trapping_rain_water_42
     │   ├── word_ladder_127
     │   └── word_search_ii
-    ├── medium
-    │   ├── all_elements_in_2_binary_search_trees
-    │   │   └── Solution.java
-    │   ├── coin_change
-    │   │   └── Solution.java
-    │   ├── longest_common_subsequence
-    │   │   └── Solution.java
-    │   ├── maximum_subarray
-    │   │   └── Solution.java
-    │   ├── remove_nth_from_end
-    │   │   └── Solution.java
-    │   ├── reorder_list
-    │   │   └── Solution.java
-    │   ├── validate_binary_search_tree
-    │   │   └── Solution.java
-    │   └── word_break
-    │       └── Solution.java
-    └── test
-        └── Solution.java
+    └── medium
+        ├── all_elements_in_2_binary_search_trees
+        │   └── Solution.java
+        ├── coin_change
+        │   └── Solution.java
+        ├── longest_common_subsequence
+        │   └── Solution.java
+        ├── maximum_subarray
+        │   └── Solution.java
+        ├── remove_nth_from_end
+        │   └── Solution.java
+        ├── reorder_list
+        │   └── Solution.java
+        ├── validate_binary_search_tree
+        │   └── Solution.java
+        └── word_break
+            └── Solution.java
