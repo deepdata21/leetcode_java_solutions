@@ -1,5 +1,6 @@
 # Ignore specific subdirectories
-/Main/out
+/out
+/test
 /Main/src/com/leetcode/test
 
 # Skip IDE-specific files
