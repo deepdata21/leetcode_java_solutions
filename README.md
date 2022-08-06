@@ -1,4 +1,4 @@
-## Solution of Selected LeetCode Problems in Java
+## Solutions to Selected LeetCode Problems in Java
 
 ## Source Code Directory
 
