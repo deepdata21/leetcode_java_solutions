@@ -1,6 +1,8 @@
 ## Solutions to Selected LeetCode Problems in Java
 
-![](Screen Shot.JPG)
+<br/>
+
+![](./images/Screen_Shot.JPG)
 
 ## Source Code Directory
 
