@@ -1,5 +1,7 @@
 ## Solutions to Selected LeetCode Problems in Java
 
+![](Screen Shot.JPG)
+
 ## Source Code Directory
 
     Main/src/com/leetcode
