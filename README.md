@@ -52,6 +52,30 @@
     │   │   └── Solution.java
     │   ├── palindrome_linked_list
     │   │   └── Solution.java
+    │   ├── plus_one
+    │   │   └── Solution.java
+    │   ├── remove_vowels_from_a_string
+    │   │   └── Solution.java
+    │   ├── reverse_bits
+    │   │   └── Solution.java
+    │   ├── reverse_linked_list
+    │   │   └── Solution.java
+    │   ├── same_tree
+    │   │   └── Solution.java
+    │   ├── search_insert_position
+    │   │   └── Solution.java
+    │   ├── single_number
+    │   │   └── Solution.java
+    │   ├── subtree_of_another_tree
+    │   │   └── Solution.java
+    │   ├── symmetric_tree
+    │   │   └── Solution.java
+    │   ├── two_sum
+    │   │   └── Solution.java
+    │   ├── valid_anagram
+    │   │   └── Solution.java
+    │   ├── valid_palindrome
+    │   │   └── Solution.java
     │   └── valid_parentheses
     │       └── Solution.java
     ├── hard
@@ -82,22 +106,21 @@
     │   ├── trapping_rain_water_42
     │   ├── word_ladder_127
     │   └── word_search_ii
-    ├── medium
-    │   ├── all_elements_in_2_binary_search_trees
-    │   │   └── Solution.java
-    │   ├── coin_change
-    │   │   └── Solution.java
-    │   ├── longest_common_subsequence
-    │   │   └── Solution.java
-    │   ├── maximum_subarray
-    │   │   └── Solution.java
-    │   ├── remove_nth_from_end
-    │   │   └── Solution.java
-    │   ├── reorder_list
-    │   │   └── Solution.java
-    │   ├── validate_binary_search_tree
-    │   │   └── Solution.java
-    │   └── word_break
-    │       └── Solution.java
-    └── test
-        └── Solution.java
+    └── medium
+        ├── all_elements_in_2_binary_search_trees
+        │   └── Solution.java
+        ├── coin_change
+        │   └── Solution.java
+        ├── longest_common_subsequence
+        │   └── Solution.java
+        ├── maximum_subarray
+        │   └── Solution.java
+        ├── remove_nth_from_end
+        │   └── Solution.java
+        ├── reorder_list
+        │   └── Solution.java
+        ├── validate_binary_search_tree
+        │   └── Solution.java
+        └── word_break
+            └── Solution.java
+
