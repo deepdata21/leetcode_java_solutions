@@ -62,6 +62,8 @@
     │   │   └── Solution.java
     │   ├── palindrome_linked_list
     │   │   └── Solution.java
+    │   ├── palindrome_number
+    │   │   └── Solution.class
     │   ├── plus_one
     │   │   └── Solution.java
     │   ├── remove_vowels_from_a_string
