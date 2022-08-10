@@ -66,6 +66,8 @@
     │   │   └── Solution.java
     │   ├── reverse_linked_list
     │   │   └── Solution.java
+    │   ├── reverse_string
+    │   │   └── Solution.class
     │   ├── same_tree
     │   │   └── Solution.java
     │   ├── search_insert_position
