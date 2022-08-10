@@ -40,6 +40,8 @@
     │   │   └── Solution.java
     │   ├── linked_list_cycle
     │   │   └── Solution.java
+    │   ├── longest_common_prefix
+    │   │   └── Solution.class
     │   ├── lowest_common_ancestor_of_a_bst
     │   │   └── Solution.java
     │   ├── majority_element
