@@ -9,7 +9,7 @@
     Main/src/com/leetcode
     ├── easy
     │   ├── backspace_string_compare
-    │   │   └── Solution.java
+    │   │   └── Solution.java
     │   ├── balanced_binary_tree
     │   │   └── Solution.java
     │   ├── best_time_to_buy_and_sell_stock
