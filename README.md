@@ -127,6 +127,8 @@
         │   └── Solution.java
         ├── reorder_list
         │   └── Solution.java
+        ├── reverse_integer
+        │   └── Solution.class
         ├── serialize_and_deserialize_bst
         │   └── Solution.java
         ├── validate_binary_search_tree
