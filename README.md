@@ -133,16 +133,18 @@
         │   └── Solution.java
         ├── maximum_subarray
         │   └── Solution.java
+        ├── product_of_array_except_self
+        │   └── Solution.java
         ├── remove_nth_from_end
         │   └── Solution.java
         ├── reorder_list
         │   └── Solution.java
         ├── reverse_integer
-        │   └── Solution.class
+        │   └── Solution.java
         ├── serialize_and_deserialize_bst
         │   └── Solution.java
         ├── simplify_path
-        │   └── Solution.class
+        │   └── Solution.java
         ├── validate_binary_search_tree
         │   └── Solution.java
         └── word_break
