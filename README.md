@@ -24,6 +24,8 @@
     │   │   └── Solution.java
     │   ├── counting_bits
     │   │   └── Solution.java
+    │   ├── degree_of_an_array
+    │   │   └── Solution.class
     │   ├── diameter_of_binary_tree
     │   │   └── Solution.java
     │   ├── fibonacci_number
