@@ -70,6 +70,8 @@
     │   │   └── Solution.java
     │   ├── remove_all_adjacent_duplicates_in_string
     │   │   └── Solution.class
+    │   ├── remove_element
+    │   │   └── Solution.java
     │   ├── remove_vowels_from_a_string
     │   │   └── Solution.java
     │   ├── reverse_bits
