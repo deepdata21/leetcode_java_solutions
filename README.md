@@ -137,6 +137,8 @@
         │   └── Solution.java
         ├── product_of_array_except_self
         │   └── Solution.java
+        ├── remove_all_adjacent_duplicates_in_string_ii
+        │   └── Solution.class
         ├── remove_nth_from_end
         │   └── Solution.java
         ├── reorder_list
