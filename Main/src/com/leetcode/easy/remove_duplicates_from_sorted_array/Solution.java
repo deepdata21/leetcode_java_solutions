@@ -1,10 +1,9 @@
-package com.leetcode.easy.remove_element;
-
-import java.util.Arrays;
+package com.leetcode.easy.remove_duplicates_from_sorted_array;
 
 public class Solution {
-    //Given an integer array nums and an integer val, remove all occurrences of val
-    //in nums in-place. The relative order of the elements may be changed.
+    //Given an integer array nums sorted in non-decreasing order, remove the
+    //duplicates in-place such that each unique element appears only once. The relative
+    //order of the elements should be kept the same.
     //
     // Since it is impossible to change the length of the array in some languages,
     //you must instead have the result be placed in the first part of the array nums.
@@ -23,15 +22,12 @@ public class Solution {
     //
     //
     //int[] nums = [...]; // Input array
-    //int val = ...; // Value to remove
-    //int[] expectedNums = [...]; // The expected answer with correct length.
-    //                            // It is sorted with no values equaling val.
+    //int[] expectedNums = [...]; // The expected answer with correct length
     //
-    //int k = removeElement(nums, val); // Calls your implementation
+    //int k = removeDuplicates(nums); // Calls your implementation
     //
     //assert k == expectedNums.length;
-    //sort(nums, 0, k); // Sort the first k elements of nums
-    //for (int i = 0; i < actualLength; i++) {
+    //for (int i = 0; i < k; i++) {
     //    assert nums[i] == expectedNums[i];
     //}
     //
@@ -42,10 +38,10 @@ public class Solution {
     // Example 1:
     //
     //
-    //Input: nums = [3,2,2,3], val = 3
-    //Output: 2, nums = [2,2,_,_]
+    //Input: nums = [1,1,2]
+    //Output: 2, nums = [1,2,_]
     //Explanation: Your function should return k = 2, with the first two elements
-    //of nums being 2.
+    //of nums being 1 and 2 respectively.
     //It does not matter what you leave beyond the returned k (hence they are
     //underscores).
     //
@@ -53,11 +49,10 @@ public class Solution {
     // Example 2:
     //
     //
-    //Input: nums = [0,1,2,2,3,0,4,2], val = 2
-    //Output: 5, nums = [0,1,4,0,3,_,_,_]
+    //Input: nums = [0,0,1,1,1,2,2,3,3,4]
+    //Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
     //Explanation: Your function should return k = 5, with the first five elements
-    //of nums containing 0, 0, 1, 3, and 4.
-    //Note that the five elements can be returned in any order.
+    //of nums being 0, 1, 2, 3, and 4 respectively.
     //It does not matter what you leave beyond the returned k (hence they are
     //underscores).
     //
@@ -66,52 +61,47 @@ public class Solution {
     // Constraints:
     //
     //
-    // 0 <= nums.length <= 100
-    // 0 <= nums[i] <= 50
-    // 0 <= val <= 100
+    // 1 <= nums.length <= 3 * 10⁴
+    // -100 <= nums[i] <= 100
+    // nums is sorted in non-decreasing order.
     //
     //
-    // Related Topics Array Two Pointers 👍 4103 👎 5865
+    // Related Topics Array Two Pointers 👍 7682 👎 11344
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
 //class Solution {
-    static int removeElement(int[] nums, int val) {
+    static int removeDuplicates(int[] nums) {
 
         if (nums.length == 0) {
             return 0;
         }
 
-        //  Pointer #1: indexPointer
         int indexPointer = 0;
 
-        //  Pointer #2: valPointer
-        for (int valPointer = 0; valPointer < nums.length; valPointer++) {
-            if (nums[valPointer] != val) {
-                nums[indexPointer] = nums[valPointer];
+        for (int valPointer = 1; valPointer < nums.length; valPointer++) {
+            if (nums[valPointer] != nums[indexPointer]) {
                 indexPointer++;
+                nums[indexPointer] = nums[valPointer];
             }
         }
-        System.out.println("Array after removing elements: " +
-                java.util.Arrays.toString(nums));
-        System.out.print("Length of the new array: ");
-        return indexPointer;
+
+        System.out.println("Array: " + java.util.Arrays.toString(nums));
+        System.out.print("New array of the length: ");
+        return indexPointer + 1;
     }
 
     public static void main(String[] args) {
-
-        // Example 1:
-        int[] nums1 = {3,2,2,3};
-        int val1 = 3;
-        //  O/P: 2, nums = [2,2,_,_]
+       // Example 1:
+        int[] nums1 = {1,1,2};
+        //Output: 2, nums = [1,2,_]
 
         // Example 2:
-        int[] nums2 = {0,1,2,2,3,0,4,2};
-        int val2 = 2;
-        //  O/P: 5, nums = [0,1,4,0,3,_,_,_]
+        int[] nums2 = {0,0,1,1,1,2,2,3,3,4};
+        //  O/P: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 
-        System.out.println(removeElement(nums1,val1));
-        System.out.println(removeElement(nums2,val2));
+        System.out.println(removeDuplicates(nums1));
+        System.out.println(removeDuplicates(nums2));
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
