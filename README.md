@@ -22,6 +22,8 @@
     │   │   └── Solution.java
     │   ├── contains_duplicate
     │   │   └── Solution.java
+    │   ├── count_odd_nums_in_interval_range
+    │   │   └── Solution.java
     │   ├── counting_bits
     │   │   └── Solution.java
     │   ├── degree_of_an_array
