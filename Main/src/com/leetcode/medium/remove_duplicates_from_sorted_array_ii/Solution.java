@@ -74,26 +74,26 @@ public class Solution {
 //leetcode submit region begin(Prohibit modification and deletion)
 //class Solution {
     static int removeDuplicates(int[] nums) {
-        int j = 1;
-        int count = 1;
+        int secondPointer = 1;
+        int countElement = 1;
 
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == nums[i - 1]) {
-                count++;
+        for (int indexPointer = 1; indexPointer < nums.length; indexPointer++) {
+            if (nums[indexPointer] == nums[indexPointer - 1]) {
+                countElement++;
             } else {
-                count = 1;
+                countElement = 1;
             }
 
             //  For each unique element appearing at most once
-//            if (count < 2) {
+//            if (countElement < 2) {
             //  For each unique element appearing at most twice
-            if (count <= 2) {
-                nums[j++] = nums[i];
+            if (countElement <= 2) {
+                nums[secondPointer++] = nums[indexPointer];
             }
         }
 
         System.out.println(Arrays.toString(nums));
-        return j;
+        return secondPointer;
     }
 
     public static void main(String[] args) {
