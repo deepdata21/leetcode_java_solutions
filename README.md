@@ -10,17 +10,17 @@
     ├── easy
     │   ├── backspace_string_compare
     │   │   └── Solution.java
-    │   ├── balanced_binary_tree
+    │   ├── balanced_binary_tree [***Grind 75]
     │   │   └── Solution.java
-    │   ├── best_time_to_buy_and_sell_stock
+    │   ├── best_time_to_buy_and_sell_stock [***Grind 75]
     │   │   └── Solution.java
-    │   ├── binary_search
+    │   ├── binary_search [***Grind 75]
     │   │   └── Solution.java
     │   ├── binary_tree_inorder_traversal
     │   │   └── Solution.java
-    │   ├── climbing_stairs
+    │   ├── climbing_stairs [***Grind 75]
     │   │   └── Solution.java
-    │   ├── contains_duplicate
+    │   ├── contains_duplicate [***Grind 75]
     │   │   └── Solution.java
     │   ├── count_odd_nums_in_interval_range
     │   │   └── Solution.java
@@ -28,7 +28,7 @@
     │   │   └── Solution.java
     │   ├── degree_of_an_array
     │   │   └── Solution.class
-    │   ├── diameter_of_binary_tree
+    │   ├── diameter_of_binary_tree [***Grind 75]
     │   │   └── Solution.java
     │   ├── fibonacci_number
     │   │   └── Solution.class
@@ -36,25 +36,25 @@
     │   │   └── Solution.java
     │   ├── intersection_of_two_linked_lists
     │   │   └── Solution.java
-    │   ├── invert_binary_tree
+    │   ├── invert_binary_tree [***Grind 75]
     │   │   └── Solution.java
     │   ├── kth_largest_element_in_a_stream
     │   │   └── Solution.java
     │   ├── last_stone_weight
     │   │   └── Solution.java
-    │   ├── linked_list_cycle
+    │   ├── linked_list_cycle [***Grind 75]
     │   │   └── Solution.java
     │   ├── longest_common_prefix
     │   │   └── Solution.class
-    │   ├── lowest_common_ancestor_of_a_bst
+    │   ├── lowest_common_ancestor_of_a_bst [***Grind 75]
     │   │   └── Solution.java
-    │   ├── majority_element
+    │   ├── majority_element [***Grind 75]
     │   │   └── Solution.java
-    │   ├── maximum_depth_of_binary_tree
+    │   ├── maximum_depth_of_binary_tree [***Grind 75]
     │   │   └── Solution.java
-    │   ├── merge_two_sorted_lists
+    │   ├── merge_two_sorted_lists [***Grind 75]
     │   │   └── Solution.java
-    │   ├── middle_node
+    │   ├── middle_node [***Grind 75]
     │   │   └── Solution.java
     │   ├── minimum_cost_climbing_stairs
     │   │   └── Solution.java
@@ -80,7 +80,7 @@
     │   │   └── Solution.java
     │   ├── reverse_bits
     │   │   └── Solution.java
-    │   ├── reverse_linked_list
+    │   ├── reverse_linked_list [***Grind 75]
     │   │   └── Solution.java
     │   ├── reverse_string
     │   │   └── Solution.class
@@ -94,13 +94,13 @@
     │   │   └── Solution.java
     │   ├── symmetric_tree
     │   │   └── Solution.java
-    │   ├── two_sum
+    │   ├── two_sum [***Grind 75]
     │   │   └── Solution.java
-    │   ├── valid_anagram
+    │   ├── valid_anagram [***Grind 75]
     │   │   └── Solution.java
-    │   ├── valid_palindrome
+    │   ├── valid_palindrome [***Grind 75]
     │   │   └── Solution.java
-    │   └── valid_parentheses
+    │   └── valid_parentheses [***Grind 75]
     │       └── Solution.java
     ├── hard
     │   ├── alien_dictionary
@@ -109,16 +109,16 @@
     │   ├── burst_balloons_312
     │   ├── distinct_subsequences_115
     │   ├── edit_distance_72
-    │   ├── find_median_from_data_stream
+    │   ├── find_median_from_data_stream [***Grind 75]
     │   │   └── Solution.java
     │   ├── largest_rectangle_in_histogram_84
     │   ├── longest_increasing_path_in_a_matrix_329
     │   ├── median_of_two_sorted_arrays
     │   │   └── Solution.java
-    │   ├── merge_k_sorted_lists
+    │   ├── merge_k_sorted_lists [***Grind 75]
     │   │   └── Solution.java
     │   ├── minimum_interval_to_include_each_query_1851
-    │   ├── minimum_window_substring
+    │   ├── minimum_window_substring [***Grind 75]
     │   │   └── Solution.java
     │   ├── n_queens_51
     │   ├── reconstruct_itinerary_332
@@ -133,7 +133,7 @@
     └── medium
         ├── all_elements_in_2_binary_search_trees
         │   └── Solution.java
-        ├── coin_change
+        ├── coin_change [***Grind 75]
         │   └── Solution.java
         ├── gas_station
         │   └── Solution.java
@@ -141,11 +141,11 @@
         │   └── Solution.java
         ├── longest_common_subsequence
         │   └── Solution.java
-        ├── maximum_subarray
+        ├── maximum_subarray [***Grind 75]
         │   └── Solution.java
-        ├── merge_intervals
+        ├── merge_intervals [***Grind 75]
         │   └── Solution.java
-        ├── product_of_array_except_self
+        ├── product_of_array_except_self [***Grind 75]
         │   └── Solution.java
         ├── remove_all_adjacent_duplicates_in_string_ii
         │   └── Solution.class
@@ -163,8 +163,8 @@
         │   └── Solution.java
         ├── simplify_path
         │   └── Solution.java
-        ├── validate_binary_search_tree
+        ├── validate_binary_search_tree [***Grind 75]
         │   └── Solution.java
-        └── word_break
+        └── word_break [***Grind 75]
             └── Solution.java
 
