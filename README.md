@@ -143,6 +143,8 @@
         │   └── Solution.java
         ├── maximum_subarray
         │   └── Solution.java
+        ├── merge_intervals
+        │   └── Solution.java
         ├── product_of_array_except_self
         │   └── Solution.java
         ├── remove_all_adjacent_duplicates_in_string_ii
