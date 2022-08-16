@@ -11,6 +11,8 @@
 <b>Click to Expand/Collapse</b>
 </summary>
 
+</br>
+
 <details> 
 <summary> Easy (Expand/Collapse) </summary> 
 
