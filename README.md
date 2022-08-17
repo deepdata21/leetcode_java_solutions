@@ -5,7 +5,7 @@
 - Solved so far (added more almost daily)
     + Easy: 51
     + Medium: 20
-    + Hard: 5
+    + Hard: 6
 
 <br/>
 
@@ -202,7 +202,8 @@
         ├── regular_expression_matching_10
         ├── reverse_nodes_in_k_group_25
         ├── serialize_and_deserialize_binary_tree
-        ├── sliding_window_maximum_239
+        ├── sliding_window_maximum
+        │   └── Solution.java
         ├── swim_in_rising_water_778
         ├── trapping_rain_water_42
         ├── word_ladder_127
