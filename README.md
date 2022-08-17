@@ -3,7 +3,7 @@
 ---
 
 - Solved so far (added more almost daily)
-    + Easy: 50
+    + Easy: 51
     + Medium: 20
     + Hard: 5
 
@@ -65,6 +65,8 @@
         │   └── Solution.java
         ├── longest_common_prefix
         │   └── Solution.class
+        ├── longest_palindrome
+        │   └── Solution.java
         ├── lowest_common_ancestor_of_a_bst [***Grind 75]
         │   └── Solution.java
         ├── majority_element [***Grind 75]
