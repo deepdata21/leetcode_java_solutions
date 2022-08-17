@@ -6,6 +6,12 @@
 ![](./images/Screen_Shot.JPG)
 
 ## Source Code Directories
+
+- Solved so far (added more almost daily):
+    + Easy: 50
+    + Medium: 20
+    + Hard: 5
+
 <details>
 <summary>
 <b>Click to Expand/Collapse</b>
