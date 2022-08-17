@@ -1,16 +1,17 @@
 ## Solutions to Selected LeetCode Problems in Java
 
 ---
+
+- Solved so far (added more almost daily)
+    + Easy: 50
+    + Medium: 20
+    + Hard: 5
+
 <br/>
 
 ![](./images/Screen_Shot.JPG)
 
-## Source Code Directories
-
-- Solved so far (added more almost daily):
-    + Easy: 50
-    + Medium: 20
-    + Hard: 5
+### Source Code Directories
 
 <details>
 <summary>
