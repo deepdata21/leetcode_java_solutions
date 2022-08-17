@@ -82,6 +82,8 @@
         │   └── Solution.class
         ├── plus_one
         │   └── Solution.java
+        ├── ransom_note
+        │   └── Solution.java
         ├── remove_all_adjacent_duplicates_in_string
         │   └── Solution.class
         ├── remove_duplicates_from_sorted_array
