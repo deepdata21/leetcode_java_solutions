@@ -143,7 +143,7 @@
         │   └── Solution.java
         ├── longest_common_subsequence
         │   └── Solution.java
-        ├── longest_palindromic_substring
+        ├── longest_palindromic_substring [***Grind 75]
         │   └── Solution.java
         ├── longest_substring_without_repeating [***Grind 75]
         │   └── Solution.class
