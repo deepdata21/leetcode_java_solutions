@@ -4,7 +4,7 @@
 
 - Solved so far (added more almost daily)
     + Easy: 51
-    + Medium: 20
+    + Medium: 21
     + Hard: 6
 
 <br/>
@@ -142,6 +142,8 @@
         ├── group_anagrams
         │   └── Solution.java
         ├── longest_common_subsequence
+        │   └── Solution.java
+        ├── longest_palindromic_substring
         │   └── Solution.java
         ├── longest_substring_without_repeating [***Grind 75]
         │   └── Solution.class
