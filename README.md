@@ -25,21 +25,21 @@
 
     Main/src/com/leetcode
     └── easy
-        ├── add_binary [***Grind 75]
+        ├── add_binary [***Grind75-Binary-1/1]
         │   └── Solution.java
         ├── backspace_string_compare
         │   └── Solution.java
-        ├── balanced_binary_tree [***Grind 75]
+        ├── balanced_binary_tree [***Grind75-BinaryTree-2/9]
         │   └── Solution.java
-        ├── best_time_to_buy_and_sell_stock [***Grind 75, +++H-Array]
+        ├── best_time_to_buy_and_sell_stock [***Grind75-Array-2/11, +++H-Array]
         │   └── Solution.java
-        ├── binary_search [***Grind 75, +++H-SortingAndSearching]
+        ├── binary_search [***Grind75-BinarySearch-1/5, +++H-SortingAndSearching]
         │   └── Solution.java
         ├── binary_tree_inorder_traversal
         │   └── Solution.java
-        ├── climbing_stairs [***Grind 75, +++L-DP]
+        ├── climbing_stairs [***Grind75-DP-2/5, +++L-DP]
         │   └── Solution.java
-        ├── contains_duplicate [***Grind 75, +++H-Array]
+        ├── contains_duplicate [***Grind75-Array-4/11, +++H-Array]
         │   └── Solution.java
         ├── count_odd_nums_in_interval_range
         │   └── Solution.java
@@ -47,37 +47,37 @@
         │   └── Solution.java
         ├── degree_of_an_array
         │   └── Solution.class
-        ├── diameter_of_binary_tree [***Grind 75]
+        ├── diameter_of_binary_tree [***Grind75-BinaryTree-3/9]
         │   └── Solution.java
         ├── fibonacci_number
         │   └── Solution.class
-        ├── flood_fill [***Grind 75, +++H-Graph]
+        ├── flood_fill [***Grind75-Graph-1/10, +++H-Graph]
         │   └── Solution.java
         ├── happy_number
         │   └── Solution.java
         ├── intersection_of_two_linked_lists
         │   └── Solution.java
-        ├── invert_binary_tree [***Grind 75, +++H-Tree]
+        ├── invert_binary_tree [***Grind75-BinaryTree-1/9, +++H-Tree]
         │   └── Solution.java
         ├── kth_largest_element_in_a_stream
         │   └── Solution.java
         ├── last_stone_weight
         │   └── Solution.java
-        ├── linked_list_cycle [***Grind 75, +++M-LinkedList]
+        ├── linked_list_cycle [***Grind75-LinkedList-2/5, +++M-LinkedList]
         │   └── Solution.java
         ├── longest_common_prefix
-        │   └── Solution.class
-        ├── longest_palindrome [***Grind 75]
+        │   └── Solution.java
+        ├── longest_palindrome [***Grind75-String-3/8]
         │   └── Solution.java
-        ├── lowest_common_ancestor_of_a_bst [***Grind 75, +++H-Tree]
+        ├── lowest_common_ancestor_of_a_bst [***Grind75-BinarySearchTree-1/3, +++H-Tree]
         │   └── Solution.java
-        ├── majority_element [***Grind 75]
+        ├── majority_element [***Grind75-Array-3/11]
         │   └── Solution.java
-        ├── maximum_depth_of_binary_tree [***Grind 75, +++H-Tree]
+        ├── maximum_depth_of_binary_tree [***Grind75-BinaryTree-4/9, +++H-Tree]
         │   └── Solution.java
-        ├── merge_two_sorted_lists [***Grind 75, +++M-LinkedList]
+        ├── merge_two_sorted_lists [***Grind75-LinkedList-1/5, +++M-LinkedList]
         │   └── Solution.java
-        ├── middle_node [***Grind 75]
+        ├── middle_node [***Grind75-LinkedList-4/5]
         │   └── Solution.java
         ├── minimum_cost_climbing_stairs
         │   └── Solution.java
@@ -105,7 +105,7 @@
         │   └── Solution.java
         ├── reverse_bits [+++L-Binary]
         │   └── Solution.java
-        ├── reverse_linked_list [***Grind 75, +++M-LinkedList]
+        ├── reverse_linked_list [***Grind75-LinkedList-3/5, +++M-LinkedList]
         │   └── Solution.java
         ├── reverse_string
         │   └── Solution.class
@@ -119,13 +119,13 @@
         │   └── Solution.java
         ├── symmetric_tree
         │   └── Solution.java
-        ├── two_sum [***Grind 75, +++H-Array, +++M-HashTable]
+        ├── two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable]
         │   └── Solution.java
-        ├── valid_anagram [***Grind 75]
+        ├── valid_anagram [***Grind75-String-2/8]
         │   └── Solution.java
-        ├── valid_palindrome [***Grind 75]
+        ├── valid_palindrome [***Grind75-String-1/8]
         │   └── Solution.java
-        └── valid_parentheses [***Grind 75, +++M-Stack]
+        └── valid_parentheses [***Grind75-Stack-1/7, +++M-Stack]
             └── Solution.java
 
 </details>
@@ -137,7 +137,7 @@
     └── medium
         ├── all_elements_in_2_binary_search_trees
         │   └── Solution.java
-        ├── coin_change [***Grind 75, +++L-DP]
+        ├── coin_change [***Grind75-DP-3/5, +++L-DP]
         │   └── Solution.java
         ├── gas_station
         │   └── Solution.java
@@ -145,15 +145,15 @@
         │   └── Solution.java
         ├── longest_common_subsequence [+++L-DP]
         │   └── Solution.java
-        ├── longest_palindromic_substring [***Grind 75, +++H-String]
+        ├── longest_palindromic_substring [***Grind75-String-6/8, +++H-String]
         │   └── Solution.java
-        ├── longest_substring_without_repeating [***Grind 75, +++H-String]
+        ├── longest_substring_without_repeating [***Grind75-String-4/8, +++H-String]
         │   └── Solution.class
-        ├── maximum_subarray [***Grind 75, +++H-Array]
+        ├── maximum_subarray [***Grind75-DP-1/5, +++H-Array]
         │   └── Solution.java
-        ├── merge_intervals [***Grind 75, +++M-Interval]
+        ├── merge_intervals [***Grind75-Array-9/11, +++M-Interval]
         │   └── Solution.java
-        ├── product_of_array_except_self [***Grind 75, +++H-Array]
+        ├── product_of_array_except_self [***Grind75-Array-7/11, +++H-Array]
         │   └── Solution.java
         ├── remove_all_adjacent_duplicates_in_string_ii
         │   └── Solution.class
@@ -171,13 +171,13 @@
         │   └── Solution.java
         ├── simplify_path
         │   └── Solution.java
-        ├── three_sum [***Grind 75, +++H-Array]
+        ├── three_sum [***Grind75-Array-6/11, +++H-Array-6]
         │   └── Solution.java
-        ├── string_to_integer_atoi [***Grind 75]
+        ├── string_to_integer_atoi [***Grind75-String-5/8]
         │   └── Solution.java
-        ├── validate_binary_search_tree [***Grind 75, +++H-Tree]
+        ├── validate_binary_search_tree [***Grind75-BinarySearchTree-2/3, +++H-Tree]
         │   └── Solution.java
-        └── word_break [***Grind 75, +++M-Trie, +++L-DP]
+        └── word_break [***Grind75-Trie-2/2, +++M-Trie, +++L-DP]
             └── Solution.java
 </details>
 
@@ -192,16 +192,16 @@
         ├── burst_balloons_312
         ├── distinct_subsequences_115
         ├── edit_distance_72
-        ├── find_median_from_data_stream [***Grind 75, +++M-Heap]
+        ├── find_median_from_data_stream [***Grind75-Heap-3/4, +++M-Heap]
         │   └── Solution.java
         ├── largest_rectangle_in_histogram_84
         ├── longest_increasing_path_in_a_matrix_329
         ├── median_of_two_sorted_arrays [+++H-SortingAndSearching]
         │   └── Solution.java
-        ├── merge_k_sorted_lists [***Grind 75, +++M-Heap, +++M-LinkedList]
+        ├── merge_k_sorted_lists [***Grind75-Heap-4/4, +++M-Heap, +++M-LinkedList]
         │   └── Solution.java
         ├── minimum_interval_to_include_each_query_1851
-        ├── minimum_window_substring [***Grind 75, +++H-String]
+        ├── minimum_window_substring [***Grind75-String-8/8, +++H-String]
         │   └── Solution.java
         ├── n_queens_51
         ├── reconstruct_itinerary_332
