@@ -4,7 +4,7 @@
 
 - Solved so far (added more almost daily)
     + Easy: 52
-    + Medium: 21
+    + Medium: 22
     + Hard: 6
 
 <br/>
