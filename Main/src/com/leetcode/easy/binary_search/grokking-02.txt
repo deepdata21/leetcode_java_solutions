@@ -1,0 +1,48 @@
+package com.leetcode.test;
+
+public class Solution {
+
+    public static int binarySearch (int[] nums) {
+
+        int leftIndex = 0;
+        int rightIndex = nums.length - 1;
+
+        while (leftIndex <= rightIndex) {
+
+            //  Make middle index the pivot index
+            int pivotIndex = leftIndex + (rightIndex - leftIndex) / 2;
+
+            if (nums[leftIndex] == nums[rightIndex]) {
+                return nums[pivotIndex];
+            }
+
+            //  If sorted in ascending order
+            //      in the ascending (1st) half of the array
+            if (nums[pivotIndex] < nums[pivotIndex + 1]) {
+            //  Maximum number is on the right side of the pivotIndex
+                leftIndex = pivotIndex + 1;
+
+            //  If sorted in descending order
+            //      in the descending (2nd) half of the array
+            } else if (nums[pivotIndex] > nums[pivotIndex + 1]) {
+                //  Maximum number is on the left side of the pivotIndex
+                rightIndex = pivotIndex - 1;
+            }
+        }
+
+        return -1;
+    }
+
+    public static void main(String[] args) {
+
+        //  In ascending order
+        int[] nums1 = {1, 2, 3, 4, 15, 7, 6};
+        int[] nums2 = {1, 2, 4, 9, 7, 8};
+        int[] nums3 = {1, 2, 3, 14, 11, 9, 7};
+
+        System.out.println(binarySearch(nums1));
+        System.out.println(binarySearch(nums2));
+        System.out.println(binarySearch(nums3));
+
+    }
+}

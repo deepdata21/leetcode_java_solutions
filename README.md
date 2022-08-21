@@ -51,6 +51,8 @@
         │   └── Solution.java
         ├── fibonacci_number
         │   └── Solution.class
+        ├── first_bad_version [***Grind75-BinarySearch-2/5]
+        │   └── Solution.java
         ├── flood_fill [***Grind75-Graph-1/10, +++H-Graph]
         │   └── Solution.java
         ├── happy_number
