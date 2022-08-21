@@ -3,7 +3,7 @@
 ---
 
 - Solved so far (added more almost daily)
-    + Easy: 52
+    + Easy: 54
     + Medium: 22
     + Hard: 6
 
@@ -57,6 +57,8 @@
         │   └── Solution.java
         ├── happy_number
         │   └── Solution.java
+        ├── implement_queue_using_stacks [***Grind75-Stack-2/7, +++M-Stack]
+        │   └── Solution.java
         ├── intersection_of_two_linked_lists
         │   └── Solution.java
         ├── invert_binary_tree [***Grind75-BinaryTree-1/9, +++H-Tree]
