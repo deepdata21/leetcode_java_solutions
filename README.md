@@ -4,12 +4,10 @@
 
 - Solved so far (added more almost daily)
     + Easy: 54
-    + Medium: 22
+    + Medium: 23
     + Hard: 6
 
-<br/>
-
-- Recommended JDK: Java 17 (unless otherwise noted in the class file)
+- Recommended JDK: **Java 17** (unless otherwise noted in the class file)
 
 <br/>
 
@@ -146,6 +144,8 @@
         ├── all_elements_in_2_binary_search_trees
         │   └── Solution.java
         ├── coin_change [***Grind75-DP-3/5, +++L-DP]
+        │   └── Solution.java
+        ├── find_all_anagrams_in_a_string [***Grind75-String-7/8, +++H-String]
         │   └── Solution.java
         ├── gas_station
         │   └── Solution.java
