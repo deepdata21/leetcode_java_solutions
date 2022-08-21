@@ -9,6 +9,10 @@
 
 <br/>
 
+- Recommended JDK: Java 17 (unless otherwise noted in the class file)
+
+<br/>
+
 ![](./images/Screen_Shot.JPG)
 
 ### Source Code Directories
