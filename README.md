@@ -3,7 +3,7 @@
 ---
 
 - Solved so far (added more almost daily)
-    + Easy: 54
+    + Easy: 55
     + Medium: 23
     + Hard: 6
 
@@ -85,6 +85,8 @@
         │   └── Solution.java
         ├── middle_node [***Grind75-LinkedList-4/5]
         │   └── Solution.java
+        ├── min_hrs_of_train_to_win_comp
+        │   └── Solution.java
         ├── minimum_cost_climbing_stairs
         │   └── Solution.java
         ├── missing_number [+++L-Binary]
