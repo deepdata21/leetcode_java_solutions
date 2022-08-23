@@ -4,7 +4,7 @@
 
 - Solved so far (added more almost daily)
     + Easy: 55
-    + Medium: 24
+    + Medium: 25
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
