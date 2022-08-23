@@ -4,7 +4,7 @@
 
 - Solved so far (added more almost daily)
     + Easy: 55
-    + Medium: 23
+    + Medium: 24
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -162,6 +162,8 @@
         ├── maximum_subarray [***Grind75-DP-1/5, +++H-Array]
         │   └── Solution.java
         ├── merge_intervals [***Grind75-Array-9/11, +++M-Interval]
+        │   └── Solution.java
+        ├── permutations [***Grind75-Recursion-1/3, +++M-Recursion]
         │   └── Solution.java
         ├── product_of_array_except_self [***Grind75-Array-7/11, +++H-Array]
         │   └── Solution.java
