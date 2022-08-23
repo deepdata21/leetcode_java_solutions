@@ -185,7 +185,7 @@
         │   └── Solution.java
         ├── [LC# 71] simplify_path
         │   └── Solution.java
-        ├── [LC# 54] spiral_matrix [***Grind75-Matrix-1/5, +++H-Matrix]
+        ├── [LC# 54] spiral_matrix [***Grind75-Matrix-1/1, +++H-Matrix]
         │   └── Solution.java
         ├── [LC# 8] string_to_integer_atoi [***Grind75-String-5/8]
         │   └── Solution.java
