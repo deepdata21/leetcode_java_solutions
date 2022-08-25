@@ -1,5 +1,11 @@
 package com.leetcode.medium.design_hit_counter;
 
+//  REQUIRES Java 8
+
+import java.util.Deque;
+import java.util.ArrayDeque;
+import javafx.util.Pair; // Pair class REQUIRES Java 8
+
 public class Solution {
     //Design a hit counter which counts the number of hits received in the past 5
     //minutes (i.e., the past 300 seconds).
@@ -60,18 +66,53 @@ public class Solution {
     //leetcode submit region begin(Prohibit modification and deletion)
     static class HitCounter {
 
-        public HitCounter() {
+        //  Declaring variable/data structure
+        private int totalTimeStamps;
+        private Deque<Pair<Integer, Integer>> hitsQueue;
 
+        //  Initialization
+        public HitCounter() {
+            this.totalTimeStamps = 0;
+            this.hitsQueue = new ArrayDeque<Pair<Integer, Integer>>();
         }
 
         public void hit(int timestamp) {
-
+            //  timestamp is in the key of the Pair
+            //  If queue is empty or
+            //      there is no element with current timestamp in the queue
+            if (this.hitsQueue.isEmpty() ||
+                this.hitsQueue.getLast().getKey() != timestamp) {
+                this.hitsQueue.offer(new Pair<Integer, Integer>(timestamp, 1));
+            } else {
+                int previousCount = this.hitsQueue.getLast().getValue();
+                //  Remove the last element so that
+                //      an element with the same timestamp can be added
+                //      with updated hit counts
+                this.hitsQueue.pollLast();
+                //
+                this.hitsQueue.offer(new Pair<Integer, Integer>(timestamp, previousCount + 1));
+            }
+            //  Increase the count of timestamps by one
+            this.totalTimeStamps++;
         }
 
         public int getHits(int timestamp) {
+            while (!this.hitsQueue.isEmpty()) {
+                int timeDifference =
+                        timestamp - this.hitsQueue.getFirst().getKey();
+                if (timeDifference >= 300) {
+                    //  Decrease the count of timestamps by one
+                    this.totalTimeStamps -= this.hitsQueue.getFirst().getValue();
+                    //  And, remove the element with first timestamp
+                    this.hitsQueue.pollFirst();
+                }
+                else break;
+            }
 
-            return 0;
+            return this.totalTimeStamps;
+
         }
+
     }
 
     public static void main(String[] args) {
@@ -81,6 +122,24 @@ public class Solution {
         //[[], [1], [2], [3], [4], [300], [300], [301]]
         //Output
         //[null, null, null, null, 3, null, 4, 3]
+
+        HitCounter hitCounter = new HitCounter();
+
+        hitCounter.hit(1);
+        hitCounter.hit(2);
+        hitCounter.hit(3);
+
+//        hitCounter.getHits(4);
+        System.out.println(hitCounter.getHits(4));
+
+        hitCounter.hit(300);
+
+//        hitCounter.getHits(300);
+        System.out.println(hitCounter.getHits(300));
+
+//        hitCounter.getHits(301);
+        System.out.println(hitCounter.getHits(301));
+
     }
 
 }

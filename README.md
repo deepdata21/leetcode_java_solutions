@@ -4,7 +4,7 @@
 
 - Solved so far (added more almost daily)
     + Easy: 55
-    + Medium: 25
+    + Medium: 26
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -148,6 +148,8 @@
         ├── [LC# 1305] all_elements_in_2_binary_search_trees
         │   └── Solution.java
         ├── [LC# 322] coin_change [***Grind75-DP-3/5, +++L-DP]
+        │   └── Solution.java
+        ├── [LC# 362] design_hit_counter [###G169-Queue-1/1]
         │   └── Solution.java
         ├── [LC# 438] find_all_anagrams_in_a_string [***Grind75-String-7/8, +++H-String]
         │   └── Solution.java
