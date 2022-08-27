@@ -2,9 +2,9 @@
 
 ---
 
-- Solved so far (added more almost daily)
+- Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 26
+    + Medium: 27
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -156,6 +156,8 @@
         ├── [LC# 134] gas_station
         │   └── Solution.java
         ├── [LC# 49] group_anagrams [+++H-String, +++M-HashTable]
+        │   └── Solution.java
+        ├── [LC# 57] insert_interval [***Grind75-Array-5/11, +++H-Array]
         │   └── Solution.java
         ├── [LC# 1143] longest_common_subsequence [+++L-DP]
         │   └── Solution.java
