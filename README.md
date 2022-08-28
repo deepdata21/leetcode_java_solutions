@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 28
+    + Medium: 29
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -191,6 +191,8 @@
         │   └── Solution.java
         ├── [LC# 71] simplify_path
         │   └── Solution.java
+        ├── sort_colors [***Grind75-Array-10/11, +++H-Array]
+        │   └── Solution.java
         ├── [LC# 54] spiral_matrix [***Grind75-Matrix-1/1, +++H-Matrix]
         │   └── Solution.java
         ├── [LC# 8] string_to_integer_atoi [***Grind75-String-5/8]
