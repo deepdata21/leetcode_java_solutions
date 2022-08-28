@@ -54,6 +54,8 @@ public class Solution {
 //    class Solution {
     static int missingNumber(int[] nums) {
 
+        //  nums.length will always be in the given array
+        //      but it won't appear as an index in the for loop
         int missing = nums.length;
 
         for (int i = 0; i < nums.length; i++) {
@@ -77,9 +79,16 @@ public class Solution {
         int[] nums3 = {9, 6, 4, 2, 3, 5, 7, 0, 1};
         //  O/P: 8
 
+        // Example 4:
+        int[] nums4 = {2, 0, 3};
+        //  O/P: 2
+        // 3^2^0^0^1^3^2
+
         System.out.println("Example 1: " + missingNumber(nums1));
         System.out.println("Example 2: " + missingNumber(nums2));
         System.out.println("Example 3: " + missingNumber(nums3));
+        System.out.println("Example 4: " + missingNumber(nums4));
+
     }
  }
 

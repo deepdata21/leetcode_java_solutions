@@ -153,6 +153,8 @@
         │   └── Solution.java
         ├── [LC# 438] find_all_anagrams_in_a_string [***Grind75-String-7/8, +++H-String]
         │   └── Solution.java
+        ├── [LC# 442] find_all_duplicates_in_an_array [Pattern-Cyclic_Sort]
+        │   └── Solution.java
         ├── [LC# 134] gas_station
         │   └── Solution.java
         ├── [LC# 49] group_anagrams [+++H-String, +++M-HashTable]
