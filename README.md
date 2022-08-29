@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 29
+    + Medium: 30 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -149,11 +149,13 @@
         │   └── Solution.java
         ├── [LC# 322] coin_change [***Grind75-DP-3/5, +++L-DP]
         │   └── Solution.java
+        ├── [LC# 39] combination_sum [***Grind75-Array-8/11, +++H-Array, P-Backtracking]
+        │   └── Solution.java
         ├── [LC# 362] design_hit_counter [###G169-Queue-1/1]
         │   └── Solution.java
         ├── [LC# 438] find_all_anagrams_in_a_string [***Grind75-String-7/8, +++H-String]
         │   └── Solution.java
-        ├── [LC# 442] find_all_duplicates_in_an_array [Pattern-Cyclic_Sort]
+        ├── [LC# 442] find_all_duplicates_in_an_array [P-Cyclic_Sort]
         │   └── Solution.java
         ├── [LC# 134] gas_station
         │   └── Solution.java
@@ -191,7 +193,7 @@
         │   └── Solution.java
         ├── [LC# 71] simplify_path
         │   └── Solution.java
-        ├── [LC# 75] sort_colors [***Grind75-Array-10/11, +++H-Array]
+        ├── [LC# 75] sort_colors [***Grind75-Array-10/11, +++H-Array, P-2_Pointers]
         │   └── Solution.java
         ├── [LC# 54] spiral_matrix [***Grind75-Matrix-1/1, +++H-Matrix]
         │   └── Solution.java
@@ -241,6 +243,7 @@
 
 </details>
 
+`P-` Pattern </br>
 `***` [Grind 75 from the Tech Interview Handbook](https://www.techinterviewhandbook.org/grind75) </br>
 `###` [Grind 169 from the Tech Interview Handbook](https://www.techinterviewhandbook.org/grind75) </br>
 `+++` [Algorithim Study Cheatsheets from the Tech Interview Handbook](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet) </br>
