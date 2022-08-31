@@ -57,10 +57,10 @@ public class Solution {
             maxAreaValue = Math.max(maxAreaValue, Math.min(height[leftBoundary],
                     height[rightBoundary]) * width);
 
-            if (leftBoundary <= rightBoundary) {
+            if (height[leftBoundary] <= height[rightBoundary]) {
                 leftBoundary++;
             } else {
-                rightBoundary++;
+                rightBoundary--;
             }
 
         }
