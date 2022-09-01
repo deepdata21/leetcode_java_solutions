@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 32 
+    + Medium: 33 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -152,6 +152,8 @@
         ├── [LC# 39] combination_sum [***Grind75-Array-8/11, +++H-Array, P-Backtracking]
         │   └── Solution.java
         ├── [LC# 11] container_with_most_water [***Grind75-Array-11/11, +++H-Array, P-2_Pointers]
+        │   └── Solution.java
+        ├── [LC# 150] evaluate_reverse_polish_notation [***Grind75-Stack-3/7, +++M-Stack]
         │   └── Solution.java
         ├── [LC# 362] design_hit_counter [###G169-Queue-1/1]
         │   └── Solution.java

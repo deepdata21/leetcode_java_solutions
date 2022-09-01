@@ -1,5 +1,8 @@
 package com.leetcode.medium.evaluate_reverse_polish_notation;
 
+import java.util.Deque;
+import java.util.ArrayDeque;
+
 public class Solution {
     //Evaluate the value of an arithmetic expression in Reverse Polish Notation.
     //
@@ -59,9 +62,44 @@ public class Solution {
 //class Solution {
     public static int evalRPN(String[] tokens) {
 
+        Deque<Integer> myStack = new ArrayDeque<>();
 
+        for (String token : tokens) {
 
-        return 0;
+            if (!"[+-*/]".contains(token)) {
+                myStack.push(Integer.valueOf(token));
+                continue;
+            }
+
+            //  2nd number is popped first
+            //      because stack
+            int numberTwo = myStack.pop();
+            int numberOne = myStack.pop();
+
+            int output = 0;
+
+            switch (token) {
+                case "+":
+                    output = numberOne + numberTwo;
+                    break;
+
+                case "-":
+                    output = numberOne - numberTwo;
+                    break;
+
+                case "*":
+                    output = numberOne * numberTwo;
+                    break;
+
+                case "/":
+                    output = numberOne / numberTwo;
+                    break;
+            }
+
+            myStack.push(output);
+        }
+
+        return myStack.pop();
 
     }
 
