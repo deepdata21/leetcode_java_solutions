@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 34 
+    + Medium: 35 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -146,6 +146,8 @@
     Main/src/com/leetcode
     └── medium
         ├── [LC# 1305] all_elements_in_2_binary_search_trees
+        │   └── Solution.java
+        ├── [LC# 102] binary_tree_level_order_traversal [***Grind75-Binary-Tree-5/9, +++H-Binary-Tree, P-Tree-BFS]
         │   └── Solution.java
         ├── [LC# 322] coin_change [***Grind75-DP-3/5, +++L-DP]
         │   └── Solution.java
