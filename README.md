@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 33 
+    + Medium: 34 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -176,6 +176,8 @@
         ├── [LC# 53] maximum_subarray [***Grind75-DP-1/5, +++H-Array]
         │   └── Solution.java
         ├── [LC# 56] merge_intervals [***Grind75-Array-9/11, +++M-Interval]
+        │   └── Solution.java
+        ├── [LC# 155] min_stack [***Grind75-Stack-4/7, +++M-Stack]
         │   └── Solution.java
         ├── [LC# 46] permutations [***Grind75-Recursion-1/3, +++M-Recursion]
         │   └── Solution.java
