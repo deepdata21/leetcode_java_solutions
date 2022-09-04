@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 35 
+    + Medium: 36 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -53,7 +53,7 @@
         │   └── Solution.java
         ├── [LC# 509] fibonacci_number
         │   └── Solution.class
-        ├── [LC# 278] first_bad_version [***Grind75-BinarySearch-2/5]
+        ├── [LC# 278] first_bad_version [***Grind75-BinarySearch-2/5, +++H-SortingAndSearching]
         │   └── Solution.java
         ├── [LC# 733] flood_fill [***Grind75-Graph-1/10, +++H-Graph]
         │   └── Solution.java
@@ -196,6 +196,8 @@
         ├── [LC# 143] reorder_list [+++M-LinkedList]
         │   └── Solution.java
         ├── [LC# 7] reverse_integer [###G169-Math-5/5]
+        │   └── Solution.java
+        ├── [LC# 33] search_in_rotated_sorted_array [***Grind75-BinarySearch-3/5, +++H-SortingAndSearching, P-Modified-BinarySearch]
         │   └── Solution.java
         ├── [LC# 449] serialize_and_deserialize_bst
         │   └── Solution.java
