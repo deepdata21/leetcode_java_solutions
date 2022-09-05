@@ -181,7 +181,7 @@
         │   └── Solution.java
         ├── [LC# 155] min_stack [***Grind75-Stack-4/7, +++M-Stack]
         │   └── Solution.java
-        ├── [LC# 200] number_of_islands [***Grind75-Graph-5/10, +++H-Graph]
+        ├── [LC# 200] number_of_islands [***Grind75-Graph-5/10, +++H-Graph, P-Islands]
         │   └── Solution.java
         ├── [LC# 46] permutations [***Grind75-Recursion-1/3, +++M-Recursion]
         │   └── Solution.java
