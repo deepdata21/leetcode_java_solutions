@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 36 
+    + Medium: 37 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -180,6 +180,8 @@
         ├── [LC# 56] merge_intervals [***Grind75-Array-9/11, +++M-Interval]
         │   └── Solution.java
         ├── [LC# 155] min_stack [***Grind75-Stack-4/7, +++M-Stack]
+        │   └── Solution.java
+        ├── [LC# 200] number_of_islands [***Grind75-Graph-5/10, +++H-Graph]
         │   └── Solution.java
         ├── [LC# 46] permutations [***Grind75-Recursion-1/3, +++M-Recursion]
         │   └── Solution.java
