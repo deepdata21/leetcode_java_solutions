@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 37 
+    + Medium: 38 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -217,7 +217,9 @@
         │   └── Solution.java
         ├── [LC# 98] validate_binary_search_tree [***Grind75-BinarySearchTree-2/3, +++H-Tree]
         │   └── Solution.java
-        └── [LC# 139] word_break [***Grind75-Trie-2/2, +++M-Trie, +++L-DP]
+        ├── [LC# 139] word_break [***Grind75-Trie-2/2, +++M-Trie, +++L-DP]
+        │   └── Solution.java
+        └── [LC# 542] zero1_matrix [***Grind75-Graph-2/10, +++H-Graph, +++L-DP, P-GraphBFS]
             └── Solution.java
 </details>
 
