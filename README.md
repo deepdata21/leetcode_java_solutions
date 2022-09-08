@@ -3,7 +3,7 @@
 ---
 
 - Solved so far (updated regularly)
-    + Easy: 54
+    + Easy: 55
     + Medium: 39 
     + Hard: 6
 
@@ -53,6 +53,8 @@
         │   └── Solution.java
         ├── [LC# 509] fibonacci_number
         │   └── Solution.class
+        ├── [LC# 1991] find_the_middle_index_in_array
+        │   └── Solution.java
         ├── [LC# 278] first_bad_version [***Grind75-BinarySearch-2/5, +++H-SortingAndSearching]
         │   └── Solution.java
         ├── [LC# 733] flood_fill [***Grind75-Graph-1/10, +++H-Graph]
