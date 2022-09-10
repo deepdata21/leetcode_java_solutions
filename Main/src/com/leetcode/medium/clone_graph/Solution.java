@@ -1,13 +1,9 @@
 package com.leetcode.medium.clone_graph;
 
-//  Needs to implement adjacency List
+// Needs to implement to toString method to see output
+// cloneGraph method works
 
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Queue;
-import java.util.LinkedList;
+import java.util.*;
 
 class Node {
     public int val;
@@ -19,6 +15,10 @@ class Node {
     public Node(int _val) {
         val = _val;
         neighbors = new ArrayList<Node>();
+    }
+
+    public Node(ArrayList<Node> _neighbors) {
+        neighbors = _neighbors;
     }
     public Node(int _val, ArrayList<Node> _neighbors) {
         val = _val;
@@ -179,17 +179,41 @@ class Node {
     }
 
     public static void main(String[] args) {
+
+        Node node1 = new Node(1, new ArrayList<>());
+        Node node2 = new Node(2, new ArrayList<>());
+        Node node3 = new Node(3, new ArrayList<>());
+        Node node4 = new Node(4, new ArrayList<>());
         // Example 1:
         // Input: adjList = [[2,4],[1,3],[2,4],[1,3]];
-        //Output: [[2,4],[1,3],[2,4],[1,3]]
+        //  O/P: [[2,4],[1,3],[2,4],[1,3]]
+
+        node1.neighbors.add(node2);
+        node1.neighbors.add(node4);
+        node2.neighbors.add(node1);
+        node2.neighbors.add(node3);
+        node3.neighbors.add(node2);
+        node3.neighbors.add(node4);
+        node4.neighbors.add(node1);
+        node4.neighbors.add(node3);
+
+        System.out.println(cloneGraph(node1).val);
+        System.out.println(cloneGraph(node1).neighbors.get(0).val);
+        System.out.println(cloneGraph(node1).neighbors.get(1).val);
 
         // Example 2:
         //Input: adjList = [[]]
-        //Output: [[]]
+        //  O/P: [[]]
+
+        Node nodeb1 = new Node(new ArrayList<>());
+        System.out.println(cloneGraph(nodeb1).val);
 
         // Example 3:
         //Input: adjList = []
         //  O/P: []
+
+        Node nodec1 = new Node();
+        System.out.println(cloneGraph(nodec1).val);
 
     }
 }
