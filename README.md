@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 55
-    + Medium: 40 
+    + Medium: 41 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -159,9 +159,11 @@
         │   └── Solution.java
         ├── [LC# 11] container_with_most_water [***Grind75-Array-11/11, +++H-Array, P-2_Pointers]
         │   └── Solution.java
-        ├── [LC# 150] evaluate_reverse_polish_notation [***Grind75-Stack-3/7, +++M-Stack]
+        ├── [LC# 207] course_schedule [***Grind75-Graph-4/10, +++H-Graph, P-Topological_Sort]
         │   └── Solution.java
         ├── [LC# 362] design_hit_counter [###G169-Queue-1/1]
+        │   └── Solution.java
+        ├── [LC# 150] evaluate_reverse_polish_notation [***Grind75-Stack-3/7, +++M-Stack]
         │   └── Solution.java
         ├── [LC# 438] find_all_anagrams_in_a_string [***Grind75-String-7/8, +++H-String]
         │   └── Solution.java
