@@ -3,8 +3,8 @@
 ---
 
 - Solved so far (updated regularly)
-    + Easy: 55
-    + Medium: 41 
+    + Easy: 56
+    + Medium: 42 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -127,6 +127,8 @@
         │   └── Solution.java
         ├── [LC# 136] single_number [+++L-Binary]
         │   └── Solution.java
+        ├── [LC# 977] squares_of_a_sorted_array [###G169-Math-7/24, +++H-Array, P-2_Pointers]
+        │   └── Solution.java
         ├── [LC# 572] subtree_of_another_tree [+++H-Tree]
         │   └── Solution.java
         ├── [LC# 101] symmetric_tree
@@ -174,6 +176,8 @@
         ├── [LC# 49] group_anagrams [+++H-String, +++M-HashTable]
         │   └── Solution.java
         ├── [LC# 57] insert_interval [***Grind75-Array-5/11, +++H-Array]
+        │   └── Solution.java
+        ├── [LC# 230] kth_smallest_element_in_a_bst [***Grind75-BinarySearchTree-3/3, +++H-Tree]
         │   └── Solution.java
         ├── [LC# 1143] longest_common_subsequence [+++L-DP]
         │   └── Solution.java
