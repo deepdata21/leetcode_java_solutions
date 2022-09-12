@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + Easy: 56
-    + Medium: 42 
+    + Medium: 43 
     + Hard: 6
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -185,6 +185,8 @@
         │   └── Solution.java
         ├── [LC# 3] longest_substring_without_repeating [***Grind75-String-4/8, +++H-String]
         │   └── Solution.class
+        ├── [LC# 146] lru_cache [***Grind75-LinkedList-5/5, +++M-LinkedList]
+        │   └── Solution.java
         ├── [LC# 53] maximum_subarray [***Grind75-DP-1/5, +++H-Array]
         │   └── Solution.java
         ├── [LC# 56] merge_intervals [***Grind75-Array-9/11, +++M-Interval]
@@ -203,9 +205,9 @@
         │   └── Solution.java
         ├── [LC# 80] remove_duplicates_from_sorted_array_ii
         │   └── Solution.java
-        ├── [LC# 19] remove_nth_from_end [+++M-LinkedList] 
+        ├── [LC# 19] remove_nth_from_end_of_list [###G169-LinkedList-7/14, +++M-LinkedList] 
         │   └── Solution.java
-        ├── [LC# 143] reorder_list [+++M-LinkedList]
+        ├── [LC# 143] reorder_list [###G169-LinkedList-12/14, +++M-LinkedList]
         │   └── Solution.java
         ├── [LC# 7] reverse_integer [###G169-Math-5/5]
         │   └── Solution.java

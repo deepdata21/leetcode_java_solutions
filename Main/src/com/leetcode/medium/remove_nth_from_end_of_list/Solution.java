@@ -1,4 +1,4 @@
-package com.leetcode.medium.remove_nth_from_end;
+package com.leetcode.medium.remove_nth_from_end_of_list;
 
 class ListNode {
     int val;
