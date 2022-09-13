@@ -3,7 +3,7 @@
 ---
 
 - Solved so far (updated regularly)
-    + Easy: 56
+    + Easy: 57
     + Medium: 43 
     + Hard: 6
 
@@ -83,6 +83,8 @@
         │   └── Solution.java
         ├── [LC# 104] maximum_depth_of_binary_tree [***Grind75-BinaryTree-4/9, +++H-Tree]
         │   └── Solution.java
+        ├── [LC# 252] meeting_rooms [###G169-Array-5/24, +++H-Array]
+        │   └── Solution.java
         ├── [LC# 21] merge_two_sorted_lists [***Grind75-LinkedList-1/5, +++M-LinkedList]
         │   └── Solution.java
         ├── [LC# 876] middle_node [***Grind75-LinkedList-4/5]
