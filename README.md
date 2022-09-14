@@ -3,9 +3,9 @@
 ---
 
 - Solved so far (updated regularly)
-    + Easy: 57
+    + Easy: 58
     + Medium: 43 
-    + Hard: 6
+    + Hard: 7 
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
 
@@ -43,6 +43,8 @@
         │   └── Solution.java
         ├── [LC# 217] contains_duplicate [***Grind75-Array-4/11, +++H-Array]
         │   └── Solution.java
+        ├── [LC# 108] convert_sorted_array_to_bst [***G169-BinarySearchTree-2/5, +++H-Tree]
+        │   └── Solution.java
         ├── [LC# 1523] count_odd_nums_in_interval_range
         │   └── Solution.java
         ├── [LC# 338] counting_bits [+++L-Binary]
@@ -267,7 +269,8 @@
         ├── [LC# 239] sliding_window_maximum [+++H-Array]
         │   └── Solution.java
         ├── swim_in_rising_water_778
-        ├── trapping_rain_water_42
+        ├── [LC# 42] trapping_rain_water [***Grind75-Stack-5/7, +++M-Stack, P-2_Pointers]
+        │   └── Solution.java
         ├── word_ladder_127
         └── word_search_ii
 
