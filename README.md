@@ -5,7 +5,7 @@
 - Solved so far (updated regularly)
     + Easy: 58
     + Medium: 43 
-    + Hard: 7 
+    + Hard: 8 
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
 
@@ -252,7 +252,8 @@
         ├── edit_distance_72
         ├── [LC# 295] find_median_from_data_stream [***Grind75-Heap-3/4, +++M-Heap]
         │   └── Solution.java
-        ├── largest_rectangle_in_histogram_84
+        ├── [LC# 84] largest_rectangle_in_histogram [***Grind75-Stack-7/7, +++M-Stack]
+        │   └── Solution.java
         ├── longest_increasing_path_in_a_matrix_329
         ├── [LC# 4] median_of_two_sorted_arrays [+++H-SortingAndSearching]
         │   └── Solution.java

@@ -44,20 +44,34 @@ public class Solution {
         int rightMax = 0;
         int result = 0;
 
+        //  Continue while left index stays smaller than
+        //      the right index as the given height array is being traversed
         while (leftIndex < rightIndex) {
+            //  Check if the height at the left index is greater than
+            //      the height at right index
             if (height[leftIndex] < height[rightIndex]) {
+
+                //  For true if condition, check if height at the left index
+                //      is greater than or equal to leftMax height
                 if (height[leftIndex] >= leftMax) {
+                    // For true if condition, update leftMax
                     leftMax = height[leftIndex];
                 } else {
                     result += leftMax - height[leftIndex];
                 }
+                //  Increase left index by 1
                 leftIndex++;
+
+            //  For false if condition, check if height at the right index
+            //      is greater than or equal to rightMax height
             } else {
                  if (height[rightIndex] >= rightMax) {
+                    // For true if condition, update rightMax
                     rightMax = height[rightIndex];
                  } else {
                     result += rightMax - height[rightIndex];
                  }
+                 //  Decrease right index by 1
                  rightIndex--;
             }
         }
