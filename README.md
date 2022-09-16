@@ -5,7 +5,7 @@
 - Solved so far (updated regularly)
     + Easy: 58
     + Medium: 43 
-    + Hard: 8 
+    + Hard: 9
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
 
@@ -246,6 +246,8 @@
     └── hard
         ├── [LC# 269] alien_dictionary [+++H-Graph]
         │   └── Solution.java
+        ├── [LC# 224] basic_calculator [***Grind75-Stack-6/7, +++M-Stack]
+        │   └── Solution.java
         ├── binary_tree_maximum_path_sum
         ├── burst_balloons_312
         ├── distinct_subsequences_115
