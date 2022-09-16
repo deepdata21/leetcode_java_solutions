@@ -3,9 +3,9 @@
 ---
 
 - Solved so far (updated regularly)
-    + **Easy: 58*
-    + *Medium: 43*
-    + *Hard: _9_*
+    + _Easy:_ **58**
+    + _Medium:_ **43**
+    + _Hard:_ **9**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
 
