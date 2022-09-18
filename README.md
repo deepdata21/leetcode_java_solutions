@@ -5,7 +5,7 @@
 - Solved so far (updated regularly)
     + _Easy:_ **58**
     + _Medium:_ **43**
-    + _Hard:_ **9**
+    + _Hard:_ **10**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
 
@@ -257,6 +257,8 @@
         ├── [LC# 84] largest_rectangle_in_histogram [***Grind75-Stack-7/7, +++M-Stack]
         │   └── Solution.java
         ├── longest_increasing_path_in_a_matrix_329
+        ├── [LC# 1235] max_profit_in_job_scheduling [***Grind75-BinarySearch-5/5, +++H-SortingAndSearching]
+        │   └── Solution.java
         ├── [LC# 4] median_of_two_sorted_arrays [+++H-SortingAndSearching]
         │   └── Solution.java
         ├── [LC# 23] merge_k_sorted_lists [***Grind75-Heap-4/4, +++M-Heap, +++M-LinkedList]
