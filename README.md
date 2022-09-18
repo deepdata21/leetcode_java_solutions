@@ -5,7 +5,7 @@
 - Solved so far (updated regularly)
     + _Easy:_ **58**
     + _Medium:_ **43**
-    + _Hard:_ **10**
+    + _Hard:_ **11**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
 
@@ -276,7 +276,8 @@
         ├── swim_in_rising_water_778
         ├── [LC# 42] trapping_rain_water [***Grind75-Stack-5/7, +++M-Stack, P-2_Pointers]
         │   └── Solution.java
-        ├── word_ladder_127
+        ├── [LC# 127] word_ladder [***Grind75-Graph-10/10, +++H-Graph]
+        │   └── Solution.java
         └── word_search_ii
 
 </details>
