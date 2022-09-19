@@ -5,7 +5,7 @@
 - Solved so far (updated regularly)
     + _Easy:_ **58**
     + _Medium:_ **43**
-    + _Hard:_ **11**
+    + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
 
@@ -31,7 +31,7 @@
         │   └── Solution.java
         ├── [LC# 844] backspace_string_compare
         │   └── Solution.java
-        ├── [LC# 110] balanced_binary_tree [***Grind75-BinaryTree-2/9]
+        ├── [LC# 110] balanced_binary_tree [***Grind75-BinaryTree-2/9, +++H-Tree ]
         │   └── Solution.java
         ├── [LC# 121] best_time_to_buy_and_sell_stock [***Grind75-Array-2/11, +++H-Array]
         │   └── Solution.java
@@ -51,7 +51,7 @@
         │   └── Solution.java
         ├── [LC# 697] degree_of_an_array
         │   └── Solution.class
-        ├── [LC# 543] diameter_of_binary_tree [***Grind75-BinaryTree-3/9]
+        ├── [LC# 543] diameter_of_binary_tree [***Grind75-BinaryTree-3/9, +++H-Tree]
         │   └── Solution.java
         ├── [LC# 509] fibonacci_number
         │   └── Solution.class
@@ -270,7 +270,7 @@
         ├── reconstruct_itinerary_332
         ├── regular_expression_matching_10
         ├── reverse_nodes_in_k_group_25
-        ├── serialize_and_deserialize_binary_tree
+        ├── [LC# 297] serialize_and_deserialize_binary_tree [***Grind75-BinaryTree-9/9, +++H-Tree]
         ├── [LC# 239] sliding_window_maximum [+++H-Array]
         │   └── Solution.java
         ├── swim_in_rising_water_778
