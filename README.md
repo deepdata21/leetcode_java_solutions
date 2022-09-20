@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **43**
+    + _Medium:_ **44**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -178,6 +178,8 @@
         ├── [LC# 134] gas_station
         │   └── Solution.java
         ├── [LC# 49] group_anagrams [+++H-String, +++M-HashTable]
+        │   └── Solution.java
+        ├── [LC# 208] implement_trie_prefix_tree [***Grind75-Trie-1/2, +++M-Trie]
         │   └── Solution.java
         ├── [LC# 57] insert_interval [***Grind75-Array-5/11, +++H-Array]
         │   └── Solution.java
