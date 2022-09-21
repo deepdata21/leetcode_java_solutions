@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **44**
+    + _Medium:_ **45**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -180,10 +180,12 @@
         ├── [LC# 49] group_anagrams [+++H-String, +++M-HashTable]
         │   └── Solution.java
         ├── [LC# 208] implement_trie_prefix_tree [***Grind75-Trie-1/2, +++M-Trie]
-        │   └── Solution.java
+        │   └── Trie.java
         ├── [LC# 57] insert_interval [***Grind75-Array-5/11, +++H-Array]
         │   └── Solution.java
         ├── [LC# 230] kth_smallest_element_in_a_bst [***Grind75-BinarySearchTree-3/3, +++H-Tree]
+        │   └── Solution.java
+        ├── [LC# 17] letter_combinations_of_a_phone_no [***Grind75-Recursion-3/3, +++M-Recursion]
         │   └── Solution.java
         ├── [LC# 1143] longest_common_subsequence [+++L-DP]
         │   └── Solution.java
