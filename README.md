@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **46**
+    + _Medium:_ **47**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -232,6 +232,8 @@
         ├── [LC# 8] string_to_integer_atoi [***Grind75-String-5/8]
         │   └── Solution.java
         ├── [LC# 78] subsets [***Grind75-Recursion-2/3, +++M-Recursion, P-Subsets, P-BFS]
+        │   └── Solution.java
+        ├── [LC# 621] task_scheduler [***Grind75-Heap-2/4, +++M-Heap]
         │   └── Solution.java
         ├── [LC# 15] three_sum [***Grind75-Array-6/11, +++H-Array]
         │   └── Solution.java
