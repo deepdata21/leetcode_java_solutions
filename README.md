@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **45**
+    + _Medium:_ **46**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -43,7 +43,7 @@
         │   └── Solution.java
         ├── [LC# 217] contains_duplicate [***Grind75-Array-4/11, +++H-Array]
         │   └── Solution.java
-        ├── [LC# 108] convert_sorted_array_to_bst [***G169-BinarySearchTree-2/5, +++H-Tree]
+        ├── [LC# 108] convert_sorted_array_to_bst [***G169-BinarySearchTree-2/5, +++H-Tree, +++H-SortingAndSearching]
         │   └── Solution.java
         ├── [LC# 1523] count_odd_nums_in_interval_range
         │   └── Solution.java
@@ -79,7 +79,7 @@
         │   └── Solution.java
         ├── [LC# 409] longest_palindrome [***Grind75-String-3/8]
         │   └── Solution.java
-        ├── [LC# 235] lowest_common_ancestor_of_a_bst [***Grind75-BinarySearchTree-1/3, +++H-Tree]
+        ├── [LC# 235] lowest_common_ancestor_of_a_bst [***Grind75-BinarySearchTree-1/3, +++H-Tree, +++H-SortingAndSearching]
         │   └── Solution.java
         ├── [LC# 169] majority_element [***Grind75-Array-3/11]
         │   └── Solution.java
@@ -235,7 +235,9 @@
         │   └── Solution.java
         ├── [LC# 15] three_sum [***Grind75-Array-6/11, +++H-Array]
         │   └── Solution.java
-        ├── [LC# 98] validate_binary_search_tree [***Grind75-BinarySearchTree-2/3, +++H-Tree]
+        ├── [LC# 981] time_based_key_value_store [***Grind75-BinarySearch-5/5, +++H-SortingAndSearching]
+        │   └── Solution.java
+        ├── [LC# 98] validate_binary_search_tree [***Grind75-BinarySearchTree-2/3, +++H-Tree, +++H-SortingAndSearching]
         │   └── Solution.java
         ├── [LC# 139] word_break [***Grind75-Trie-2/2, +++M-Trie, +++L-DP]
         │   └── Solution.java
@@ -288,7 +290,7 @@
 
 `P-` Pattern </br>
 `***` [Grind 75 from the Tech Interview Handbook](https://www.techinterviewhandbook.org/grind75) </br>
-`###` [Grind 169 from the Tech Interview Handbook](https://www.techinterviewhandbook.org/grind75) </br>
+`###` [Grind 169 from the Tech Interview Handbook](https://www.techinterviewhandbook.org/grind75?weeks=26) </br>
 `+++` [Algorithim Study Cheatsheets from the Tech Interview Handbook](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet) </br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- H: High Priority/ROI </br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- M: Medium Priority/ROI </br>
