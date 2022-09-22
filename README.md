@@ -235,7 +235,7 @@
         │   └── Solution.java
         ├── [LC# 15] three_sum [***Grind75-Array-6/11, +++H-Array]
         │   └── Solution.java
-        ├── [LC# 981] time_based_key_value_store [***Grind75-BinarySearch-5/5, +++H-SortingAndSearching]
+        ├── [LC# 981] time_based_key_value_store [***Grind75-BinarySearch-5/5, +++H-SortingAndSearching, +++M-HashTable, +++M-TreeMap]
         │   └── Solution.java
         ├── [LC# 98] validate_binary_search_tree [***Grind75-BinarySearchTree-2/3, +++H-Tree, +++H-SortingAndSearching]
         │   └── Solution.java
