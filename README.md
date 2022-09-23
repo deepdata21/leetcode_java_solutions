@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **47**
+    + _Medium:_ **48**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -182,6 +182,8 @@
         ├── [LC# 208] implement_trie_prefix_tree [***Grind75-Trie-1/2, +++M-Trie]
         │   └── Trie.java
         ├── [LC# 57] insert_interval [***Grind75-Array-5/11, +++H-Array]
+        │   └── Solution.java
+        ├── [LC# 973] k_closest_point_to_origin [***Grind75-Heap-1/4, +++M-Heap]
         │   └── Solution.java
         ├── [LC# 230] kth_smallest_element_in_a_bst [***Grind75-BinarySearchTree-3/3, +++H-Tree]
         │   └── Solution.java
