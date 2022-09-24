@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **48**
+    + _Medium:_ **50**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -205,6 +205,8 @@
         │   └── Solution.java
         ├── [LC# 200] number_of_islands [***Grind75-Graph-5/10, +++H-Graph, P-Islands]
         │   └── Solution.java
+        ├── [LC# 416] partition_equal_subset_sum [***Grind75-DP-4/5, +++L-DP]
+        │   └── Solution.java
         ├── [LC# 46] permutations [***Grind75-Recursion-1/3, +++M-Recursion]
         │   └── Solution.java
         ├── [LC# 238] product_of_array_except_self [***Grind75-Array-7/11, +++H-Array]
@@ -240,6 +242,8 @@
         ├── [LC# 15] three_sum [***Grind75-Array-6/11, +++H-Array]
         │   └── Solution.java
         ├── [LC# 981] time_based_key_value_store [***Grind75-BinarySearch-5/5, +++H-SortingAndSearching, +++M-HashTable, +++M-TreeMap]
+        │   └── Solution.java
+        ├── [LC# 62] unique_paths [***Grind75-DP-5/5, +++L-DP]
         │   └── Solution.java
         ├── [LC# 98] validate_binary_search_tree [***Grind75-BinarySearchTree-2/3, +++H-Tree, +++H-SortingAndSearching]
         │   └── Solution.java
