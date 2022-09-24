@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **50**
+    + _Medium:_ **49**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -222,6 +222,8 @@
         ├── [LC# 143] reorder_list [###G169-LinkedList-12/14, +++M-LinkedList]
         │   └── Solution.java
         ├── [LC# 7] reverse_integer [###G169-Math-5/5]
+        │   └── Solution.java
+        ├── [LC# 994] rotting_oranges [***Grind75-Graph-6/10, +++H-Graph, +++L-DP, P-GraphBFS]
         │   └── Solution.java
         ├── [LC# 33] search_in_rotated_sorted_array [***Grind75-BinarySearch-3/5, +++H-SortingAndSearching, P-Modified-BinarySearch]
         │   └── Solution.java
