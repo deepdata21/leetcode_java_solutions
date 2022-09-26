@@ -168,7 +168,7 @@
         ├── [LC# 207] course_schedule [***Grind75-Graph-4/10, +++H-Graph, P-Topological_Sort]
         │   └── Solution.java
         ├── [LC# 362] design_hit_counter [###G169-Queue-1/1]
-        │   └── Solution.java
+        │   └── HitCounter.java
         ├── [LC# 150] evaluate_reverse_polish_notation [***Grind75-Stack-3/7, +++M-Stack]
         │   └── Solution.java
         ├── [LC# 438] find_all_anagrams_in_a_string [***Grind75-String-7/8, +++H-String]
