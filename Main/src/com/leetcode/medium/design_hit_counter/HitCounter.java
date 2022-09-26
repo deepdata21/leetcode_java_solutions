@@ -1,12 +1,14 @@
 package com.leetcode.medium.design_hit_counter;
 
-//  REQUIRES Java 8
+import java.util.Queue;
+import java.util.LinkedList;
 
-import java.util.Deque;
-import java.util.ArrayDeque;
-import javafx.util.Pair; // Pair class REQUIRES Java 8
+//  Approach 2 REQUIRES Java 8
+//import java.util.Deque;
+//import java.util.ArrayDeque;
+//import javafx.util.Pair; // Pair class REQUIRES Java 8
 
-public class Solution {
+public class HitCounter {
     //Design a hit counter which counts the number of hits received in the past 5
     //minutes (i.e., the past 300 seconds).
     //
@@ -64,55 +66,32 @@ public class Solution {
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
-    static class HitCounter {
 
-        //  Declaring variable/data structure
-        private int totalTimeStamps;
-        private Deque<Pair<Integer, Integer>> hitsQueue;
+    //  Declare hits queue as a private variable
+    //      so that it remains accessible to all methods
+    private Queue<Integer> hitsQueue = null;
 
-        //  Initialization
-        public HitCounter() {
-            this.totalTimeStamps = 0;
-            this.hitsQueue = new ArrayDeque<Pair<Integer, Integer>>();
+    //  Initialize the queue here
+    public HitCounter () {
+        this.hitsQueue = new LinkedList<>();
+    }
+
+    //  Add a hit timestamp
+    public void hit(int timestamp) {
+        this.hitsQueue.offer(timestamp);
+    }
+
+    // Find the number of hits in last 300 s
+    public int getHits(int timestamp) {
+        while (!this.hitsQueue.isEmpty()) {
+           int timeElapsed = timestamp - this.hitsQueue.peek();
+           if (timeElapsed >= 300) {
+               this.hitsQueue.poll();
+           } else {
+               break;
+           }
         }
-
-        public void hit(int timestamp) {
-            //  timestamp is in the key of the Pair
-            //  If queue is empty or
-            //      there is no element with current timestamp in the queue
-            if (this.hitsQueue.isEmpty() ||
-                this.hitsQueue.getLast().getKey() != timestamp) {
-                this.hitsQueue.offer(new Pair<Integer, Integer>(timestamp, 1));
-            } else {
-                int previousCount = this.hitsQueue.getLast().getValue();
-                //  Remove the last element so that
-                //      an element with the same timestamp can be added
-                //      with updated hit counts
-                this.hitsQueue.pollLast();
-                //
-                this.hitsQueue.offer(new Pair<Integer, Integer>(timestamp, previousCount + 1));
-            }
-            //  Increase the count of timestamps by one
-            this.totalTimeStamps++;
-        }
-
-        public int getHits(int timestamp) {
-            while (!this.hitsQueue.isEmpty()) {
-                int timeDifference =
-                        timestamp - this.hitsQueue.getFirst().getKey();
-                if (timeDifference >= 300) {
-                    //  Decrease the count of timestamps by one
-                    this.totalTimeStamps -= this.hitsQueue.getFirst().getValue();
-                    //  And, remove the element with first timestamp
-                    this.hitsQueue.pollFirst();
-                }
-                else break;
-            }
-
-            return this.totalTimeStamps;
-
-        }
-
+        return this.hitsQueue.size();
     }
 
     public static void main(String[] args) {
@@ -123,7 +102,7 @@ public class Solution {
         //Output
         //[null, null, null, null, 3, null, 4, 3]
 
-        HitCounter hitCounter = new HitCounter();
+        HitCounter hitCounter= new HitCounter();
 
         hitCounter.hit(1);
         hitCounter.hit(2);
