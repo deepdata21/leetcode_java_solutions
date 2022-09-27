@@ -62,80 +62,90 @@ public class Solution {
 //class Solution {
     static String minWindow(String s, String t) {
 
-        if (s.length() == 0 || t.length() == 0) {
+        if (s.length() == 0 || t.length() == 0){
             return "";
         }
 
-        java.util.Map<Character, Integer> hMap = new java.util.HashMap<Character, Integer>();
+        int windowStart = 0;
+        int windowEnd;
+        int matchedCharacters = 0;
+        int substringStart = 0;
+        int minWindowSize = s.length() + 1; //  Smallest (maximum) impossible size
+
+        Map<Character, Integer> patternMap = new HashMap<>();
+
+//        t.chars().mapToObj(c -> (char) c)
+//                .forEach(c -> patternMap.put(
+//                        c, patternMap.getOrDefault(c, 0) + 1));
 
         for (int i = 0; i < t.length(); i++) {
-            int count = hMap.getOrDefault(t.charAt(i), 0);
-            hMap.put(t.charAt(i), count + 1);
+            char ch = t.charAt(i);
+            patternMap.put(ch,
+                    patternMap.getOrDefault(ch, 0) + 1);
         }
 
-        int required = hMap.size();
-
-        //  Filter all the characters from s into a new list
-        //      along with their index.
-        //  The filtering criteria is that the character
-        //      should be present in t.
-
-        java.util.List<javafx.util.Pair<Integer, Character>> filteredS =
-                new java.util.ArrayList<javafx.util.Pair<Integer, Character>>();
-
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (hMap.containsKey(c)) {
-                filteredS.add(new javafx.util.Pair<Integer, Character>(i, c));
-            }
-        }
-
-        int l = 0, r = 0, formed = 0;
-        java.util.Map<Character, Integer> windowCounts =
-                new java.util.HashMap<Character, Integer>();
-        int[] ans = {-1, 0, 0};
-
-        //  Look for the characters only in the filtered list instead of
-        //      entire s.
-        //  This helps to reduce our search.
-        //  Hence, we follow the sliding window approach on as small list.
-
-        while (r < filteredS.size()) {
-            char c = filteredS.get(r).getValue();
-            int count = windowCounts.getOrDefault(c, 0);
-            windowCounts.put(c, count + 1);
-
-            if (hMap.containsKey(c) &&
-                    windowCounts.get(c).intValue() ==
-                            hMap.get(c).intValue()) {
-                formed++;
+        for (windowEnd = 0; windowEnd < s.length(); windowEnd++) {
+            //  Declare and store current character at index windowEnd
+            char rightChar = s.charAt(windowEnd);
+            if (patternMap.containsKey(rightChar)) {
+                patternMap.put(rightChar, patternMap.get(rightChar) - 1);
+                if (patternMap.get(rightChar) >= 0) {
+                    //  Increase the count of matched characters
+                    //      for every encounter of a matching character
+                    //  However, ignore if patternMap.get(key) < 0,
+                    //      which means the required number matches
+                    //      for that key/rightChr have already been accounted for
+                    matchedCharacters++;
+                }
             }
 
-            //  Try and contact the window till the point where it
-            //      ceases to be 'desirable'
+            while (matchedCharacters == t.length()) {
 
-            while (l <= r && formed == required) {
-                c = filteredS.get(l).getValue();
+                //  + 1 b/c 0-indexed
+//                int windowLength = windowEnd - windowStart + 1;
 
-                //  Save the smallest window until now.
-                int end = filteredS.get(r).getKey();
-                int start = filteredS.get(l).getKey();
-                if (ans[0] == -1 || end - start + 1 < ans[0]) {
-                    ans[0] = end - start + 1;
-                    ans[1] = start;
-                    ans[2] = end;
+                if (minWindowSize > windowEnd - windowStart + 1) {
+                    //  Update minimum window size if
+                    //      current (properly matching) window length is smaller
+                    minWindowSize = windowEnd - windowStart + 1;
+
+                    //  Store the current windowStart as the
+                    //      starting index of the required minimum window substring
+                    substringStart = windowStart;
                 }
 
-                windowCounts.put(c, windowCounts.get(c) - 1);
-                if (hMap.containsKey(c) && windowCounts.get(c).intValue() <
-                        hMap.get(c).intValue()) {
-                    formed--;
+                //  Store the character at the start of the window
+                //      and, after that increase windowStart by 1
+                char leftChar = s.charAt(windowStart++);
+
+                //  Check if the character at the start of the window
+                //      is present in the pattern map
+                if (patternMap.containsKey(leftChar)) {
+
+                    //  If present, it has already been accounted for
+                    //      in matchedCharacters count
+                    //  So, if its current count is 0,
+                    //      remove it from the count of matchedCharacters
+                    //      by decreasing the value of matchedCharacters by 1
+                    if (patternMap.get(leftChar) == 0) {
+                        matchedCharacters--;
+                    }
+
+                    //  If patternMap.get(key/leftchar) is > (i.e. !=) 0 or just 0
+                    //     put it back in the pattern map by increasing the value by 1,
+                    //     since leftchar is moving out of the window
+                    //     in the following/next iteration
+                    patternMap.put(leftChar, patternMap.get(leftChar) + 1);
                 }
-                l++;
             }
-            r++;
         }
-        return ans[0] == -1 ? "" : s.substring(ans[1], ans[2] + 1);
+
+        //  return empty string if minimum substring doesn't exist
+        //      (i.e. length of given string > minWindowSize) or
+        //      return the minimum window substring
+        return minWindowSize > s.length() ?
+                "" : s.substring(substringStart, substringStart + minWindowSize);
+
     }
 
     public static void main(String[] args) {
@@ -158,10 +168,6 @@ public class Solution {
         System.out.println("Example 1: " + minWindow(s1,t1));
         System.out.println("Example 2: " + minWindow(s2,t2));
         System.out.println("Example 3: " + minWindow(s3,t3));
-
-//        //  Pair requires Java8 and discarded in Java11
-//        javafx.util.Pair p1 = new javafx.util.Pair(3,4);
-//        System.out.println(p1);
 
     }
 }
