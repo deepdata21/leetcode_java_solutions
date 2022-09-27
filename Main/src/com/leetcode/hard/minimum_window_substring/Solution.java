@@ -1,9 +1,6 @@
 package com.leetcode.hard.minimum_window_substring;
 
-//  REQUIRES Java 8 for javafx.util.Pair
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Solution {
