@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **53**
+    + _Medium:_ **54**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -79,7 +79,7 @@
         │   └── Solution.java
         ├── [LC# 409] longest_palindrome [***Grind75-String-3/8]
         │   └── Solution.java
-        ├── [LC# 235] lowest_common_ancestor_of_a_bst [***Grind75-BinarySearchTree-1/3, +++H-Tree, +++H-SortingAndSearching]
+        ├── [LC# 235] lowest_common_ancestor_of_a_bst [***Grind75-BinaryTree-6/9, +++H-Tree]
         │   └── Solution.java
         ├── [LC# 169] majority_element [***Grind75-Array-3/11]
         │   └── Solution.java
@@ -157,7 +157,7 @@
         │   └── Solution.java
         ├── [LC# 1305] all_elements_in_2_binary_search_trees
         │   └── Solution.java [***Grind75-Graph-6/10, +++H-Graph, +++L-DP, P-GraphBFS]
-        ├── [LC# 102] binary_tree_level_order_traversal [***Grind75-Binary-Tree-5/9, +++H-Binary-Tree, P-Tree-BFS]
+        ├── [LC# 102] binary_tree_level_order_traversal [***Grind75-BinaryTree-5/9, +++H-BinaryTree, P-Tree-BFS]
         │   └── Solution.java
         ├── [LC# 133] clone_graph [***Grind75-Graph-3/10, +++H-Graph, P-BFS]
         │   └── Solution.java
@@ -199,6 +199,8 @@
         │   └── Solution.java
         ├── [LC# 3] longest_substring_without_repeating [***Grind75-String-4/8, +++H-String]
         │   └── Solution.class
+        ├── [LC# 236] lowest_common_ancestor_of_a_binary_tree [***Grind75-BinaryTree-5/9, +++H-BinaryTree, P-Tree-BFS]
+        │   └── Solution.java
         ├── [LC# 146] lru_cache [***Grind75-LinkedList-5/5, +++M-LinkedList]
         │   └── Solution.java
         ├── [LC# 53] maximum_subarray [***Grind75-DP-1/5, +++H-Array]
@@ -206,6 +208,8 @@
         ├── [LC# 56] merge_intervals [***Grind75-Array-9/11, +++M-Interval]
         │   └── Solution.java
         ├── [LC# 155] min_stack [***Grind75-Stack-4/7, +++M-Stack]
+        │   └── Solution.java
+        ├── [LC# 310] minimum_height_trees [***Grind75-Graph-9/10, +++H-Graph, P-Topological_Sort, P-Tree-BFS]
         │   └── Solution.java
         ├── [LC# 200] number_of_islands [***Grind75-Graph-5/10, +++H-Graph, P-Islands]
         │   └── Solution.java
