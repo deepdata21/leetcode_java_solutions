@@ -60,7 +60,7 @@ public class Solution {
 //class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         //  Time Complexity: O(v) where v is the number of nodes
-        //  Time Complexity: O(v) where v is the number of nodes
+        //  Space Complexity: O(v) where v is the number of nodes
         //  Pattern: Topological Sort
         //  Pattern: Tree BFS
         //      1. Test edge cases with n < 2, e.g. 0 or 1
@@ -69,7 +69,7 @@ public class Solution {
         //      3. Create an ArrayList to hold current leaf nodes
         //              (nodes with only one edge)
         //      4. Iterate over all the current leaf nodes and
-        //          remove them (and their correspondig edges)
+        //          remove them (and their corresponding edges)
         //          from the list after processing is done;
         //          this will expose new leaf nodes (if any) to be
         //          processed in the next iteration
