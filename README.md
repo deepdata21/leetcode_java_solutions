@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **55**
+    + _Medium:_ **56**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -159,6 +159,8 @@
         │   └── Solution.java [***Grind75-Graph-6/10, +++H-Graph, +++L-DP, P-GraphBFS]
         ├── [LC# 102] binary_tree_level_order_traversal [***Grind75-BinaryTree-5/9, +++H-BinaryTree, P-Tree-BFS]
         │   └── Solution.java
+        ├── [LC# 199] binary_tree_right_side_view [***Grind75-BinaryTree-7/9, +++H-BinaryTree]
+        │   └── Solution.java
         ├── [LC# 133] clone_graph [***Grind75-Graph-3/10, +++H-Graph, P-BFS]
         │   └── Solution.java
         ├── [LC# 322] coin_change [***Grind75-DP-3/5, +++L-DP]
@@ -199,7 +201,7 @@
         │   └── Solution.java
         ├── [LC# 3] longest_substring_without_repeating [***Grind75-String-4/8, +++H-String]
         │   └── Solution.class
-        ├── [LC# 236] lowest_common_ancestor_of_a_binary_tree [***Grind75-BinaryTree-5/9, +++H-BinaryTree, P-Tree-BFS]
+        ├── [LC# 236] lowest_common_ancestor_of_a_binary_tree [***Grind75-BinaryTree-5/9, +++H-BinaryTree]
         │   └── Solution.java
         ├── [LC# 146] lru_cache [***Grind75-LinkedList-5/5, +++M-LinkedList]
         │   └── Solution.java
