@@ -55,6 +55,10 @@ public class Solution {
 //class Solution {
 
     /**
+     * TIME COMPLEXITY: O(n 3^l) where n is the number of grid cells and
+     *      l is the length of the given word
+     * SPACE COMPLEXITY: O(l) where l is the length of the given word
+     *
      * STEPS
      * ---------------------
      * 1. Begin the search with the first character of the given word;

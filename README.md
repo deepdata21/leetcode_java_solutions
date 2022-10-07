@@ -4,7 +4,7 @@
 
 - Solved so far (updated regularly)
     + _Easy:_ **58**
-    + _Medium:_ **56**
+    + _Medium:_ **57**
     + _Hard:_ **12**
 
 - Recommended JDK: **Java 17** (unless otherwise noted in the class file)
@@ -159,7 +159,7 @@
         │   └── Solution.java [***Grind75-Graph-6/10, +++H-Graph, +++L-DP, P-GraphBFS]
         ├── [LC# 102] binary_tree_level_order_traversal [***Grind75-BinaryTree-5/9, +++H-BinaryTree, P-Tree-BFS]
         │   └── Solution.java
-        ├── [LC# 199] binary_tree_right_side_view [***Grind75-BinaryTree-7/9, +++H-BinaryTree]
+        ├── [LC# 199] binary_tree_right_side_view [***Grind75-BinaryTree-7/9, +++H-BinaryTree, +++M-Recursion]
         │   └── Solution.java
         ├── [LC# 133] clone_graph [***Grind75-Graph-3/10, +++H-Graph, P-BFS]
         │   └── Solution.java
@@ -280,6 +280,8 @@
         ├── burst_balloons_312
         ├── distinct_subsequences_115
         ├── edit_distance_72
+        ├── [LC# 759] employee_free_time [###G169-Array-23/24, +++H-Array, +++M-Heap]
+        │   └── Solution.java
         ├── [LC# 295] find_median_from_data_stream [***Grind75-Heap-3/4, +++M-Heap]
         │   └── Solution.java
         ├── [LC# 84] largest_rectangle_in_histogram [***Grind75-Stack-7/7, +++M-Stack]
