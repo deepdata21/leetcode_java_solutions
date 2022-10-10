@@ -3,7 +3,7 @@
 ---
 
 - Solved so far (updated regularly)
-    + _Easy:_ **58**
+    + _Easy:_ **60**
     + _Medium:_ **57**
     + _Hard:_ **12**
 
@@ -137,8 +137,12 @@
         │   └── Solution.java
         ├── [LC# 101] symmetric_tree
         │   └── Solution.java
+        ├── [LC# 2432] the_employee_that_worked_on_the_longest_task [+++H-Array]
+        │   └── Solution.java
         ├── [LC# 01] two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable]
         │   └── Solution.java
+        ├── [LC# 653] two_sum_iv_input_in_a_bst [+++H-Tree, +++M-Recursion, +++M-HashTable]
+        │   ├── Solution.java
         ├── [LC# 242] valid_anagram [***Grind75-String-2/8]
         │   └── Solution.java
         ├── [LC# 125] valid_palindrome [***Grind75-String-1/8]
