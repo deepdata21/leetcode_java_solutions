@@ -1,4 +1,4 @@
-package com.leetcode.easy.two_sum_iv_input_in_a_bst;
+package com.leetcode.easy.two_sum_iv_input_is_a_bst;
 
 import java.util.Map;
 import java.util.HashMap;

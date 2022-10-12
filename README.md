@@ -3,7 +3,7 @@
 ---
 
 - Solved so far (updated regularly)
-    + _Easy:_ **60**
+    + _Easy:_ **61**
     + _Medium:_ **57**
     + _Hard:_ **12**
 
@@ -47,7 +47,7 @@
         │   └── Solution.java
         ├── [LC# 1523] count_odd_nums_in_interval_range
         │   └── Solution.java
-        ├── [LC# 338] counting_bits [+++L-Binary]
+        ├── [LC# 338] counting_bits [***G169-Binary-2/7, +++L-Binary]
         │   └── Solution.java
         ├── [LC# 697] degree_of_an_array
         │   └── Solution.class
@@ -95,11 +95,11 @@
         │   └── Solution.java
         ├── [LC# 746] minimum_cost_climbing_stairs
         │   └── Solution.java
-        ├── [LC# 268] missing_number [+++L-Binary]
+        ├── [LC# 268] missing_number [***G169-Binary-5/7, +++L-Binary]
         │   └── Solution.java
         ├── [LC# 283] move_zeroes
         │   └── Solution.java
-        ├── [LC# 191] number_of_1_bits [+++L-Binary]
+        ├── [LC# 191] number_of_1_bits [***G169-Binary-3/7, +++L-Binary]
         │   └── Solution.java
         ├── [LC# 234] palindrome_linked_list [###G169-LinkedList-5/14]
         │   └── Solution.java
@@ -117,7 +117,7 @@
         │   └── Solution.java
         ├── [LC# 1119] remove_vowels_from_a_string
         │   └── Solution.java
-        ├── [LC# 190] reverse_bits [+++L-Binary]
+        ├── [LC# 190] reverse_bits [***G169-Binary-6/7, +++L-Binary]
         │   └── Solution.java
         ├── [LC# 206] reverse_linked_list [***Grind75-LinkedList-3/5, +++M-LinkedList]
         │   └── Solution.java
@@ -129,8 +129,10 @@
         │   └── Solution.java
         ├── [LC# 35] search_insert_position
         │   └── Solution.java
-        ├── [LC# 136] single_number [+++L-Binary]
+        ├── [LC# 136] single_number [***G169-Binary-4/7, +++L-Binary]
         │   └── Solution.java
+        ├── [LC# 1356] sort_integers_by_the_number_of_1_bits [+++L-Binary]
+        │   └── Solution.class
         ├── [LC# 977] squares_of_a_sorted_array [###G169-Math-7/24, +++H-Array, P-2_Pointers]
         │   └── Solution.java
         ├── [LC# 572] subtree_of_another_tree [+++H-Tree]
@@ -141,7 +143,7 @@
         │   └── Solution.java
         ├── [LC# 01] two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable]
         │   └── Solution.java
-        ├── [LC# 653] two_sum_iv_input_in_a_bst [+++H-Tree, +++M-Recursion, +++M-HashTable]
+        ├── [LC# 653] two_sum_iv_input_is_a_bst [+++H-Tree, +++M-Recursion, +++M-HashTable]
         │   ├── Solution.java
         ├── [LC# 242] valid_anagram [***Grind75-String-2/8]
         │   └── Solution.java
@@ -184,6 +186,8 @@
         ├── [LC# 438] find_all_anagrams_in_a_string [***Grind75-String-7/8, +++H-String]
         │   └── Solution.java
         ├── [LC# 442] find_all_duplicates_in_an_array [P-Cyclic_Sort]
+        │   └── Solution.java
+        ├── [LC# 287] find_the_duplicate_number [***G169-Binary-7/7, +++L-Binary]
         │   └── Solution.java
         ├── [LC# 134] gas_station
         │   └── Solution.java
